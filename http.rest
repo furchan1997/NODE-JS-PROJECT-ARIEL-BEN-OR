@@ -1,0 +1,216 @@
+@local=http://localhost:4040
+@adminToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGNiMzFhYmJlNjkxOTE5NWNlZGUwZCIsImJpeiI6dHJ1ZSwiYWRtaW4iOnRydWUsImlhdCI6MTczNzI3NjM3OX0.ybNRhZ3XpA1HkqEiNlRdOZElLOniPQTl4hZ1jErXUdk
+
+@bizToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ODgzYmJlZDJmYTJhZDJhNzcxNWYyNyIsImJpeiI6dHJ1ZSwiYWRtaW4iOmZhbHNlLCJpYXQiOjE3MzY5ODE0NTN9.M_BF6Yk_7pX4FKphID2y6gOzj4EmXKi_QVlQ5LYF-8g
+
+@regularUser=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ODgyMmNmOWU0M2ZhMGZlYWFjYWMwZSIsImJpeiI6ZmFsc2UsImFkbWluIjpmYWxzZSwiaWF0IjoxNzM2OTc1MDg3fQ.sFRaWmYBtP2u7vPg5GPLzt3HaHC-JNQV_7l-BPrGBz0
+
+@user2=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ODhjNmZhMmYyMmQ5MjIzYjViMDFkMiIsImJpeiI6dHJ1ZSwiYWRtaW4iOmZhbHNlLCJpYXQiOjE3MzcwMTcwODl9.YkJ7AHeU3qF-_Hp4cmmPKneQD4vVDwEa-1J-RkiB2ww
+
+@user=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ODhlNGQ2OTdlODFiMzY4NzcyY2E2MyIsImJpeiI6dHJ1ZSwiYWRtaW4iOmZhbHNlLCJpYXQiOjE3MzcwMjQ3MzV9.oTSVIycDv_dDUL-7jQaVXzZFEkOZt7ARxEtKx73f-mc
+  "id": "6788c3b5704e6d9837e62ee5"
+### CRAETE NEW USER
+
+
+POST  {{local}}/users/
+Content-Type: application/json
+
+{
+  "name": {
+    "first": "Ell",
+    "middle": "",
+    "last": "Vis"
+  },
+  "phone": "0512345567",
+  "email": "ariel@email.com",
+  "password": "Abc!123Abc",
+  "image": {
+    "url": "",
+    "alt": ""
+  },
+  "address": {
+    "state": "IL",
+    "country": "Israel",
+    "city": "Arad",
+    "street": "Shoham",
+    "houseNumber": 5,
+    "zip":69
+  },
+  "isBusiness": true
+}
+
+### SIGN IN FOR TOKEN
+
+POST  {{local}}/users/login
+Content-Type: application/json
+
+
+
+{
+  "email": "ariek23432@email.com",
+  "password": "Abc!123Abc"
+}
+
+### SIGN IN FOR USER WITH VALID TOKEN
+
+GET  {{local}}/users/678c123772eb2dc937711c4d
+x-auth-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGMxMjM3NzJlYjJkYzkzNzcxMWM0ZCIsImJpeiI6dHJ1ZSwiYWRtaW4iOmZhbHNlLCJpYXQiOjE3MzcyMzI5NjF9.iuyr308lELzPC5Yc8GMUNBYBEmn2QuIkiVjiUYaZHbQ
+
+### GET ALL USERS
+
+GET  {{local}}/users/
+x-auth-token: {{adminToken}}
+
+
+### CHANGES USER DETALIS
+
+PUT  {{local}}/users/67883b7bf7d24e1e2731c0a1
+x-auth-token: {{adminToken}}
+Content-Type: application/json
+
+
+{
+  "name": {
+    "first": "adminos",
+    "middle": "William",
+    "last": "Doe"
+  },
+    "phone": "0506595538",
+  "address": {
+    "state": "California",
+    "country": "USA",
+    "city": "Los Angeles",
+    "street": "34555",
+    "houseNumber": 123,
+    "zip": 90
+  },
+  "image": {
+    "url": "https://example.com/image.jpg",
+    "alt": "Profile Picture"
+  }
+}
+
+
+### CHANGE BIZ STATUS FOR USER 
+
+PATCH  {{local}}/users/67883bbed2fa2ad2a7715f27
+x-auth-token:{{bizToken}}
+Content-Type: application/json
+
+{
+  "isBusiness": false
+}
+
+
+### DELETE USER FROM DATA
+
+DELETE  {{local}}/users/6788c48f704e6d9837e62ef3
+x-auth-token:{{user2}}
+
+### TEST ERRORS STATUS 500
+
+GET  {{local}}/users/test-error
+
+### 
+
+POST  {{local}}/cards/
+x-auth-token:{{regularUser}}
+Content-Type: application/json
+
+
+{
+  "subtitle": "Premium Quality Coffee Beans",
+  "description": "We offer a wide selection of premium coffee beans sourced from around the world, roasted to perfection.",
+  "phone": "0523456789",
+  "email": "contact@gourmetcoffee.com",
+  "web": "http://www.gourmetcoffee.com",
+  "image": {
+    "url": "http://www.gourmetcoffee.com/images/coffee.jpg",
+    "alt": "Premium Coffee Beans"
+  },
+  "address": {
+    "state": "California",
+    "country": "USA",
+    "city": "San Francisco",
+    "street": "123 Coffee Street",
+    "houseNumber": 42,
+    "zip": 94107
+  }
+}
+
+### USER CARD:
+
+GET  {{local}}/cards/my-cards
+x-auth-token:{{user}}
+
+
+
+### UPDATE CARD:
+
+PUT  {{local}}/cards/6788d1dfbeb22d0d838212b3
+x-auth-token:{{user2}}
+Content-Type: application/json
+
+
+{
+  "title": " nussm32 5",
+  "subtitle": "Premium Quality Coffee Beans",
+  "description": "We offer a wide selection of premium coffee beans sourced from around the world, roasted to perfection.",
+  "phone": "0523456789",
+  "email": "contact@gourmetcoffee.com",
+  "web": "http://www.gourmetcoffee.com",
+  "image": {
+    "url": "http://www.gourmetcoffee.com/images/coffee.jpg",
+    "alt": "Premium Coffee Beans"
+  },
+  "address": {
+    "state": "California",
+    "country": "USA",
+    "city": "San Francisco",
+    "street": "123 Coffee Street",
+    "houseNumber": 42,
+    "zip": 94107
+  }
+}
+
+
+###
+
+
+PATCH  {{local}}/cards/admin/6788c7202f22d9223b5b01d8
+x-auth-token:{{regularUser}}
+Content-Type: application/json
+
+
+{
+  "bizNumber": 1663287188
+}
+
+
+### GET CARD BY ID:
+GET  {{local}}/cards/6788dacb2153ac9f9b02591c
+
+### DELETE CARD:
+
+DELETE  {{local}}/cards/678ccab704757332c911430e
+x-auth-token:{{adminToken}}
+
+
+
+
+### LIKE CARD
+
+PATCH  {{local}}/cards/6788d4494681c86c5c75bd34
+x-auth-token:{{user2}}
+Content-Type: application/json
+
+### ALL CARDS
+
+
+GET  {{local}}/cards/
+
+###
+
+
+DELETE  {{local}}/users
+x-auth-token: {{adminToken}}

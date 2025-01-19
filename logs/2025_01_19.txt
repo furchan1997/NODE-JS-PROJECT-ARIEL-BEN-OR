@@ -1,0 +1,228 @@
+{"date":"2025-01-18T22:17:06.392Z","status":400,"message":"{\"Status\":400,\"Message\":\"Bad request. Please check your input.\",\"Reason\":\"\\\"title\\\" length must be at least 2 characters long\"}"}
+{"date":"2025-01-18T22:19:00.008Z","status":400,"message":"{\"Status\":400,\"Message\":\"Bad request. Please check your input.\",\"Reason\":\"\\\"title\\\" length must be at least 2 characters long\"}"}
+{"date":"2025-01-18T22:21:08.852Z","status":400,"message":"This biz number is already taken."}
+{"date":"2025-01-18T22:21:16.836Z","status":400,"message":"{\"Status\":400,\"Message\":\"Bad request. Please check your input.\",\"Reason\":\"\\\"bizNumber\\\" must be a safe number\"}"}
+{"date":"2025-01-18T22:21:23.054Z","status":400,"message":"{\"Status\":400,\"Message\":\"Bad request. Please check your input.\",\"Reason\":\"\\\"bizNumber\\\" must be greater than or equal to 100\"}"}
+{"date":"2025-01-18T22:21:42.507Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\"}"}
+{"date":"2025-01-18T22:21:58.620Z","status":404,"message":"Card not found."}
+{"date":"2025-01-18T22:22:48.250Z","status":403,"message":"Only an Cardholder can perform this action."}
+{"date":"2025-01-18T22:23:21.420Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\"}"}
+{"date":"2025-01-18T22:23:29.887Z","status":403,"message":"Only an administrator can perform this action."}
+{"date":"2025-01-18T22:23:34.583Z","status":401,"message":"{\"message\":\"Access denied. Token is required.\"}"}
+{"date":"2025-01-18T22:23:38.912Z","status":403,"message":"Only an administrator can perform this action."}
+{"date":"2025-01-18T22:23:46.212Z","status":403,"message":"Only an administrator can perform this action."}
+{"date":"2025-01-18T22:23:53.776Z","status":403,"message":"Only an administrator can perform this action."}
+{"date":"2025-01-18T22:24:05.935Z","status":404,"message":"Card not found."}
+{"date":"2025-01-18T22:24:34.449Z","status":404,"message":"Card not found."}
+{"date":"2025-01-18T22:34:29.756Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\"}"}
+{"date":"2025-01-18T22:34:29.755Z","status":400,"message":{"message":"Bad request. Please check your input."}}
+{"date":"2025-01-18T22:35:17.633Z","status":400,"message":{"message":"Bad request. Please check your input."}}
+{"date":"2025-01-18T22:35:17.633Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\"}"}
+{"date":"2025-01-18T22:36:52.018Z","status":400,"message":{"message":"Email is busy."}}
+{"date":"2025-01-18T22:36:52.024Z","status":400,"message":"{\"message\":\"Email is busy.\"}"}
+{"date":"2025-01-18T22:37:06.847Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\",\"reason\":\"\\\"password\\\" length must be at least 7 characters long\"}"}
+{"date":"2025-01-18T22:37:23.476Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\",\"reason\":\"\\\"image.alt\\\" length must be at least 2 characters long\"}"}
+{"date":"2025-01-18T22:38:29.345Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\"}"}
+{"date":"2025-01-18T22:40:34.429Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\"}"}
+{"date":"2025-01-18T22:40:45.255Z","status":401,"message":"{\"message\":\"Access denied. Token is required.\"}"}
+{"date":"2025-01-18T22:42:40.974Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\",\"reason\":\"\\\"address.zip\\\" must be less than or equal to 256\"}"}
+{"date":"2025-01-18T22:43:30.355Z","status":403,"message":"Only the account owner has permission to change their details."}
+{"date":"2025-01-18T22:46:19.342Z","status":400,"message":{"message":"Email is busy."}}
+{"date":"2025-01-18T22:46:19.342Z","status":400,"message":"{\"message\":\"Email is busy.\"}"}
+{"date":"2025-01-18T22:48:41.228Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\"}"}
+{"date":"2025-01-18T22:49:08.212Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\",\"reason\":\"\\\"isBusiness\\\" is required\"}"}
+{"date":"2025-01-18T22:55:31.010Z","status":403,"message":"You must be a user biz."}
+{"date":"2025-01-18T23:00:40.704Z","status":403,"message":"You must be a user biz."}
+{"date":"2025-01-18T23:00:46.244Z","status":403,"message":"You must be a user biz."}
+{"date":"2025-01-18T23:05:22.808Z","status":400,"message":{"message":"Email is busy."}}
+{"date":"2025-01-18T23:05:22.809Z","status":400,"message":"{\"message\":\"Email is busy.\"}"}
+{"date":"2025-01-18T23:07:19.453Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\",\"reason\":\"\\\"email\\\" must be a valid email\"}"}
+{"date":"2025-01-18T23:07:30.626Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\"}"}
+{"date":"2025-01-18T23:07:59.779Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\"}"}
+{"date":"2025-01-18T23:08:02.555Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\"}"}
+{"date":"2025-01-18T23:09:29.917Z","status":403,"message":"{\"message\":\"Unauthorized access\"}"}
+{"date":"2025-01-18T23:09:42.549Z","status":403,"message":"{\"message\":\"Unauthorized access\"}"}
+{"date":"2025-01-18T23:09:49.070Z","status":403,"message":"{\"message\":\"Unauthorized access\"}"}
+{"date":"2025-01-18T23:10:36.186Z","status":403,"message":"{\"message\":\"Unauthorized access\"}"}
+{"date":"2025-01-18T23:11:20.226Z","status":403,"message":"{\"message\":\"Unauthorized access\"}"}
+{"date":"2025-01-18T23:11:56.877Z","status":403,"message":"{\"message\":\"Unauthorized access\"}"}
+{"date":"2025-01-18T23:13:59.531Z","status":404,"message":"{\"message\":\"User not found.\"}"}
+{"date":"2025-01-18T23:19:37.733Z","status":403,"message":"{\"message\":\"Unauthorized access\"}"}
+{"date":"2025-01-18T23:20:37.578Z","status":403,"message":"This user does not have permission to receive all users."}
+{"date":"2025-01-18T23:20:46.852Z","status":403,"message":"This user does not have permission to receive all users."}
+{"date":"2025-01-18T23:22:08.037Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\",\"reason\":\"\\\"name.middle\\\" length must be at least 2 characters long\"}"}
+{"date":"2025-01-18T23:22:34.633Z","status":403,"message":"Only the account owner has permission to change their details."}
+{"date":"2025-01-18T23:22:42.289Z","status":403,"message":"Only the account owner has permission to change their details."}
+{"date":"2025-01-18T23:26:17.233Z","status":403,"message":"Access denied. Admins or account owners only."}
+{"date":"2025-01-18T23:26:46.440Z","status":403,"message":"Access denied. account owner only."}
+{"date":"2025-01-18T23:26:54.684Z","status":403,"message":"Access denied. account owner only."}
+{"date":"2025-01-18T23:27:00.279Z","status":403,"message":"Access denied. account owner only."}
+{"date":"2025-01-18T23:27:50.631Z","status":403,"message":"Access denied. account owner only."}
+{"date":"2025-01-18T23:27:58.015Z","status":403,"message":"Access denied. account owner only."}
+{"date":"2025-01-18T23:28:53.087Z","status":403,"message":"Access denied. account owner only."}
+{"date":"2025-01-18T23:29:04.647Z","status":403,"message":"Access denied. account owner only."}
+{"date":"2025-01-18T23:29:29.783Z","status":403,"message":"Access denied. account owner only."}
+{"date":"2025-01-18T23:31:18.859Z","status":403,"message":"You must be a user biz."}
+{"date":"2025-01-18T23:31:53.566Z","status":403,"message":"You must be a user biz."}
+{"date":"2025-01-18T23:33:15.777Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\"}"}
+{"date":"2025-01-18T23:35:00.802Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\"}"}
+{"date":"2025-01-18T23:38:06.804Z","status":403,"message":"You are not authorized to edit this card."}
+{"date":"2025-01-18T23:38:20.131Z","status":403,"message":"You are not authorized to edit this card."}
+{"date":"2025-01-18T23:38:33.828Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\"}"}
+{"date":"2025-01-18T23:39:37.427Z","status":400,"message":"This biz number is already taken."}
+{"date":"2025-01-18T23:40:16.878Z","status":403,"message":"Only an administrator can perform this action."}
+{"date":"2025-01-18T23:52:12.272Z","status":404,"message":"No card yet."}
+{"date":"2025-01-19T00:22:19.113Z","status":401,"message":"{\"message\":\"Access denied. Token is required.\"}"}
+{"date":"2025-01-19T00:44:28.376Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\",\"reason\":\"\\\"address.isBusiness\\\" is not allowed\"}"}
+{"date":"2025-01-19T00:48:42.769Z","status":404,"message":"User not found."}
+{"date":"2025-01-19T00:48:45.928Z","status":404,"message":"User not found."}
+{"date":"2025-01-19T00:48:58.780Z","status":404,"message":"{\"message\":\"User not found.\"}"}
+{"date":"2025-01-19T00:49:02.774Z","status":404,"message":"{\"message\":\"User not found.\"}"}
+{"date":"2025-01-19T00:49:15.727Z","status":404,"message":"{\"message\":\"User not found.\"}"}
+{"date":"2025-01-19T00:49:24.984Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\"}"}
+{"date":"2025-01-19T00:56:12.120Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\"}"}
+{"date":"2025-01-19T00:58:02.426Z","status":403,"message":"Only an administrator can perform this action."}
+{"date":"2025-01-19T00:58:25.246Z","status":400,"message":"This biz number is already taken."}
+{"date":"2025-01-19T00:58:59.007Z","status":403,"message":"Only an Cardholder can perform this action."}
+{"date":"2025-01-19T00:59:03.426Z","status":403,"message":"Only an Cardholder can perform this action."}
+{"date":"2025-01-19T01:00:36.417Z","status":403,"message":"You must be a user biz."}
+{"date":"2025-01-19T01:01:29.374Z","status":403,"message":"{\"message\":\"Unauthorized access\"}"}
+{"date":"2025-01-19T01:01:35.620Z","status":404,"message":"{\"message\":\"User not found.\"}"}
+{"date":"2025-01-19T01:01:50.574Z","status":403,"message":"You must be a user biz."}
+{"date":"2025-01-19T01:03:37.353Z","status":404,"message":"Card not found."}
+{"date":"2025-01-19T07:49:51.223Z","status":400,"message":"{\"message\":\"Email is busy.\"}"}
+{"date":"2025-01-19T07:49:51.222Z","status":400,"message":{"message":"Email is busy."}}
+{"date":"2025-01-19T07:50:00.282Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\",\"reason\":\"\\\"name.first\\\" length must be at least 2 characters long\"}"}
+{"date":"2025-01-19T07:51:57.542Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\",\"reason\":\"\\\"image.url\\\" length must be at least 14 characters long\"}"}
+{"date":"2025-01-19T07:52:25.425Z","status":400,"message":{"message":"Email is busy."}}
+{"date":"2025-01-19T07:52:25.426Z","status":400,"message":"{\"message\":\"Email is busy.\"}"}
+{"date":"2025-01-19T07:57:50.163Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\",\"reason\":\"\\\"image.url\\\" length must be at least 14 characters long\"}"}
+{"date":"2025-01-19T07:59:17.986Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\",\"reason\":\"\\\"address.state\\\" length must be at least 2 characters long\"}"}
+{"date":"2025-01-19T08:00:06.725Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\",\"reason\":\"\\\"image.alt\\\" length must be at least 2 characters long\"}"}
+{"date":"2025-01-19T08:07:03.977Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\",\"reason\":\"\\\"image.url\\\" length must be at least 14 characters long\"}"}
+{"date":"2025-01-19T08:07:47.460Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\",\"reason\":\"\\\"image.alt\\\" length must be at least 2 characters long\"}"}
+{"date":"2025-01-19T08:07:53.365Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\",\"reason\":\"\\\"address.state\\\" length must be at least 2 characters long\"}"}
+{"date":"2025-01-19T08:08:04.647Z","status":400,"message":{"message":"Email is busy."}}
+{"date":"2025-01-19T08:08:04.648Z","status":400,"message":"{\"message\":\"Email is busy.\"}"}
+{"date":"2025-01-19T08:08:34.368Z","status":400,"message":{"message":"Email is busy."}}
+{"date":"2025-01-19T08:08:34.368Z","status":400,"message":"{\"message\":\"Email is busy.\"}"}
+{"date":"2025-01-19T08:11:03.712Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\"}"}
+{"date":"2025-01-19T08:11:10.014Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\"}"}
+{"date":"2025-01-19T08:11:46.966Z","status":403,"message":"{\"message\":\"Unauthorized access\"}"}
+{"date":"2025-01-19T08:12:19.335Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\"}"}
+{"date":"2025-01-19T08:12:39.356Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\"}"}
+{"date":"2025-01-19T08:12:43.705Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\",\"reason\":\"\\\"password\\\" length must be at least 7 characters long\"}"}
+{"date":"2025-01-19T08:16:22.588Z","status":401,"message":"{\"message\":\"Access denied. Token is required.\"}"}
+{"date":"2025-01-19T08:18:11.859Z","status":403,"message":"This user does not have permission to receive all users."}
+{"date":"2025-01-19T08:19:45.999Z","status":403,"message":"{\"message\":\"Unauthorized access\"}"}
+{"date":"2025-01-19T08:20:11.691Z","status":403,"message":"This user does not have permission to receive all users."}
+{"date":"2025-01-19T08:20:18.088Z","status":403,"message":"This user does not have permission to receive all users."}
+{"date":"2025-01-19T08:21:54.424Z","status":403,"message":"{\"message\":\"Unauthorized access\"}"}
+{"date":"2025-01-19T08:22:39.313Z","status":403,"message":"This user does not have permission to receive all users."}
+{"date":"2025-01-19T08:22:47.157Z","status":403,"message":"This user does not have permission to receive all users."}
+{"date":"2025-01-19T08:23:27.099Z","status":401,"message":"{\"message\":\"Access denied. Token is required.\"}"}
+{"date":"2025-01-19T08:24:28.121Z","status":403,"message":"{\"message\":\"Unauthorized access\"}"}
+{"date":"2025-01-19T08:25:00.036Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\"}"}
+{"date":"2025-01-19T08:25:19.265Z","status":403,"message":"{\"message\":\"Unauthorized access\"}"}
+{"date":"2025-01-19T08:26:33.047Z","status":403,"message":"{\"message\":\"Unauthorized access\"}"}
+{"date":"2025-01-19T08:27:06.021Z","status":403,"message":"{\"message\":\"Unauthorized access\"}"}
+{"date":"2025-01-19T08:27:17.308Z","status":403,"message":"{\"message\":\"Unauthorized access\"}"}
+{"date":"2025-01-19T08:27:47.937Z","status":403,"message":"{\"message\":\"Unauthorized access\"}"}
+{"date":"2025-01-19T08:27:53.633Z","status":401,"message":"{\"message\":\"Access denied. Token is required.\"}"}
+{"date":"2025-01-19T08:28:08.354Z","status":403,"message":"{\"message\":\"Unauthorized access\"}"}
+{"date":"2025-01-19T08:28:30.361Z","status":403,"message":"{\"message\":\"Unauthorized access\"}"}
+{"date":"2025-01-19T08:32:01.692Z","status":404,"message":"{\"message\":\"User not found.\"}"}
+{"date":"2025-01-19T08:32:13.864Z","status":403,"message":"{\"message\":\"Unauthorized access\"}"}
+{"date":"2025-01-19T08:33:23.661Z","status":404,"message":"{\"message\":\"User not found.\"}"}
+{"date":"2025-01-19T08:33:41.995Z","status":404,"message":"{\"message\":\"User not found.\"}"}
+{"date":"2025-01-19T08:33:58.686Z","status":404,"message":"{\"message\":\"User not found.\"}"}
+{"date":"2025-01-19T08:37:51.221Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\",\"reason\":\"\\\"name.first\\\" length must be at least 2 characters long\"}"}
+{"date":"2025-01-19T08:38:38.456Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\",\"reason\":\"\\\"isBusiness\\\" is not allowed\"}"}
+{"date":"2025-01-19T08:39:05.764Z","status":403,"message":"Only the account owner has permission to change their details."}
+{"date":"2025-01-19T08:39:42.722Z","status":403,"message":"Only the account owner has permission to change their details."}
+{"date":"2025-01-19T08:41:39.285Z","status":404,"message":"{\"message\":\"User not found.\"}"}
+{"date":"2025-01-19T08:42:00.733Z","status":404,"message":"{\"message\":\"User not found.\"}"}
+{"date":"2025-01-19T08:42:22.800Z","status":403,"message":"Only the account owner has permission to change their details."}
+{"date":"2025-01-19T08:42:48.800Z","status":403,"message":"Only the account owner has permission to change their details."}
+{"date":"2025-01-19T08:43:15.309Z","status":403,"message":"Only the account owner has permission to change their details."}
+{"date":"2025-01-19T08:44:05.375Z","status":403,"message":"{\"message\":\"Unauthorized access\"}"}
+{"date":"2025-01-19T08:45:05.249Z","status":403,"message":"This user does not have permission to receive all users."}
+{"date":"2025-01-19T08:45:45.455Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\"}"}
+{"date":"2025-01-19T08:48:01.934Z","status":401,"message":"{\"message\":\"Access denied. Token is required.\"}"}
+{"date":"2025-01-19T08:49:22.469Z","status":403,"message":"This user does not have permission to receive all users."}
+{"date":"2025-01-19T08:49:34.876Z","status":403,"message":"{\"message\":\"Unauthorized access\"}"}
+{"date":"2025-01-19T08:51:25.330Z","status":403,"message":"Access denied. account owner only."}
+{"date":"2025-01-19T08:51:36.956Z","status":403,"message":"Access denied. account owner only."}
+{"date":"2025-01-19T08:54:16.934Z","status":403,"message":"You must be a user biz."}
+{"date":"2025-01-19T08:56:21.121Z","status":403,"message":"{\"message\":\"Unauthorized access\"}"}
+{"date":"2025-01-19T08:56:31.182Z","status":401,"message":"{\"message\":\"Access denied. Token is required.\"}"}
+{"date":"2025-01-19T08:56:42.176Z","status":401,"message":"{\"message\":\"Access denied. Token is required.\"}"}
+{"date":"2025-01-19T08:57:10.305Z","status":404,"message":"User not found."}
+{"date":"2025-01-19T08:57:30.352Z","status":404,"message":"{\"message\":\"User not found.\"}"}
+{"date":"2025-01-19T08:57:44.577Z","status":404,"message":"{\"message\":\"User not found.\"}"}
+{"date":"2025-01-19T08:58:48.615Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\"}"}
+{"date":"2025-01-19T08:59:45.043Z","status":404,"message":"{\"message\":\"User not found.\"}"}
+{"date":"2025-01-19T09:02:58.608Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\"}"}
+{"date":"2025-01-19T09:03:01.587Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\"}"}
+{"date":"2025-01-19T09:03:24.242Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\"}"}
+{"date":"2025-01-19T09:07:36.555Z","status":404,"message":"דגדגכ"}
+{"date":"2025-01-19T09:09:12.574Z","status":404,"message":"User not found."}
+{"date":"2025-01-19T09:09:22.875Z","status":404,"message":"User not found."}
+{"date":"2025-01-19T09:09:26.922Z","status":404,"message":"User not found."}
+{"date":"2025-01-19T09:10:01.406Z","status":403,"message":"{\"message\":\"Unauthorized access\"}"}
+{"date":"2025-01-19T09:10:38.228Z","status":400,"message":{"message":"Email is busy."}}
+{"date":"2025-01-19T09:10:38.229Z","status":400,"message":"{\"message\":\"Email is busy.\"}"}
+{"date":"2025-01-19T09:14:40.205Z","status":404,"message":"User not found."}
+{"date":"2025-01-19T09:26:21.913Z","status":404,"message":"User not found."}
+{"date":"2025-01-19T09:27:59.038Z","status":404,"message":"User not found."}
+{"date":"2025-01-19T09:32:23.030Z","status":404,"message":"User not found."}
+{"date":"2025-01-19T09:38:21.603Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\"}"}
+{"date":"2025-01-19T09:38:24.651Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\"}"}
+{"date":"2025-01-19T09:46:09.853Z","status":404,"message":"Card not found."}
+{"date":"2025-01-19T09:47:33.129Z","status":404,"message":"No card yet."}
+{"date":"2025-01-19T09:48:29.393Z","status":403,"message":"You must be a user biz."}
+{"date":"2025-01-19T09:49:20.890Z","status":404,"message":"No card yet."}
+{"date":"2025-01-19T09:50:27.758Z","status":401,"message":"{\"message\":\"Access denied. Token is required.\"}"}
+{"date":"2025-01-19T09:50:30.122Z","status":401,"message":"{\"message\":\"Access denied. Token is required.\"}"}
+{"date":"2025-01-19T09:58:59.076Z","status":404,"message":"Card not found."}
+{"date":"2025-01-19T09:59:45.210Z","status":403,"message":"Only an Cardholder can perform this action."}
+{"date":"2025-01-19T10:01:06.417Z","status":403,"message":"Only an Cardholder can perform this action."}
+{"date":"2025-01-19T10:01:51.227Z","status":403,"message":"Only an Cardholder can perform this action."}
+{"date":"2025-01-19T10:03:01.812Z","status":403,"message":"Only an Cardholder can perform this action."}
+{"date":"2025-01-19T10:09:14.208Z","status":403,"message":"Only an Cardholder can perform this action."}
+{"date":"2025-01-19T10:09:16.184Z","status":403,"message":"Only an Cardholder can perform this action."}
+{"date":"2025-01-19T10:09:49.772Z","status":403,"message":"Only an Cardholder can perform this action."}
+{"date":"2025-01-19T10:16:53.795Z","status":403,"message":"{\"message\":\"Unauthorized access\"}"}
+{"date":"2025-01-19T10:27:09.681Z","status":403,"message":"Only an Cardholder can perform this action."}
+{"date":"2025-01-19T10:28:17.991Z","status":403,"message":"Only an Cardholder can perform this action."}
+{"date":"2025-01-19T10:34:02.937Z","status":403,"message":"Only an Cardholder can perform this action."}
+{"date":"2025-01-19T10:41:27.237Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\"}"}
+{"date":"2025-01-19T10:41:31.352Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\"}"}
+{"date":"2025-01-19T10:42:21.035Z","status":403,"message":"Only an Cardholder can perform this action."}
+{"date":"2025-01-19T10:43:12.931Z","status":403,"message":"Only an Cardholder can perform this action."}
+{"date":"2025-01-19T10:45:58.721Z","status":404,"message":"Card not found."}
+{"date":"2025-01-19T10:46:28.039Z","status":404,"message":"Card not found."}
+{"date":"2025-01-19T10:48:56.207Z","status":403,"message":"You must be a user biz."}
+{"date":"2025-01-19T10:54:11.492Z","status":404,"message":"Card not found."}
+{"date":"2025-01-19T10:58:18.410Z","status":404,"message":"User not found."}
+{"date":"2025-01-19T11:00:39.744Z","status":404,"message":"Card not found."}
+{"date":"2025-01-19T11:02:58.956Z","status":401,"message":"{\"message\":\"Access denied. Token is required.\"}"}
+{"date":"2025-01-19T11:03:06.151Z","status":403,"message":"Only an Cardholder can perform this action."}
+{"date":"2025-01-19T11:03:31.239Z","status":403,"message":"Only an Cardholder can perform this action."}
+{"date":"2025-01-19T11:03:49.396Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\"}"}
+{"date":"2025-01-19T11:04:06.732Z","status":404,"message":"Card not found."}
+{"date":"2025-01-19T11:04:21.555Z","status":404,"message":"Card not found."}
+{"date":"2025-01-19T11:06:32.436Z","status":400,"message":"Bad request. Please check your input."}
+{"date":"2025-01-19T11:07:09.439Z","status":403,"message":"You are not authorized to edit this card."}
+{"date":"2025-01-19T11:07:15.831Z","status":403,"message":"You are not authorized to edit this card."}
+{"date":"2025-01-19T11:07:59.467Z","status":404,"message":"Card not found."}
+{"date":"2025-01-19T11:08:07.594Z","status":404,"message":"Card not found."}
+{"date":"2025-01-19T11:11:15.872Z","status":400,"message":"{\"Status\":400,\"Message\":\"Bad request. Please check your input.\",\"Reason\":\"\\\"image.url\\\" length must be at least 14 characters long\"}"}
+{"date":"2025-01-19T11:12:07.555Z","status":400,"message":"{\"Status\":400,\"Message\":\"Bad request. Please check your input.\",\"Reason\":\"\\\"address.country\\\" is required\"}"}
+{"date":"2025-01-19T11:15:15.091Z","status":400,"message":"This biz number is already taken."}
+{"date":"2025-01-19T11:15:32.789Z","status":400,"message":"This biz number is already taken."}
+{"date":"2025-01-19T11:15:54.161Z","status":403,"message":"Only an administrator can perform this action."}
+{"date":"2025-01-19T11:16:02.353Z","status":403,"message":"Only an administrator can perform this action."}
+{"date":"2025-01-19T11:16:37.758Z","status":400,"message":"This biz number is already taken."}
+{"date":"2025-01-19T11:16:52.625Z","status":400,"message":"{\"Status\":400,\"Message\":\"Bad request. Please check your input.\",\"Reason\":\"\\\"bizNumber\\\" must be a safe number\"}"}
+{"date":"2025-01-19T11:16:57.599Z","status":400,"message":"{\"Status\":400,\"Message\":\"Bad request. Please check your input.\",\"Reason\":\"\\\"bizNumber\\\" must be greater than or equal to 100\"}"}

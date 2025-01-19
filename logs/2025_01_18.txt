@@ -1,0 +1,35 @@
+{"date":"2025-01-18T20:33:12.765Z","status":403,"message":"This user does not have permission to receive all users."}
+{"date":"2025-01-18T20:33:52.117Z","status":403,"message":"This user does not have permission to receive all users."}
+{"date":"2025-01-18T20:34:31.021Z","status":403,"message":"This user does not have permission to receive all users."}
+{"date":"2025-01-18T20:35:55.929Z","status":403,"message":"This user does not have permission to receive all users."}
+{"date":"2025-01-18T20:36:48.810Z","status":403,"message":"This user does not have permission to receive all users."}
+{"date":"2025-01-18T20:37:56.456Z","status":403,"message":"This user does not have permission to receive all users."}
+{"date":"2025-01-18T20:40:00.041Z","status":403,"message":"This user does not have permission to receive all users."}
+{"date":"2025-01-18T20:40:51.039Z","status":403,"message":"This user does not have permission to receive all users."}
+{"date":"2025-01-18T20:42:09.181Z","status":403,"message":"This user does not have permission to receive all users."}
+{"date":"2025-01-18T20:43:21.506Z","status":403,"message":"This user does not have permission to receive all users."}
+{"date":"2025-01-18T20:50:48.801Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\",\"reason\":\"\\\"address.zip\\\" must be less than or equal to 256\"}"}
+{"date":"2025-01-18T20:51:56.338Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\",\"reason\":\"\\\"isBusiness\\\" is required\"}"}
+{"date":"2025-01-18T20:56:06.307Z","status":400,"message":"The isBusiness status is already set to the same value."}
+{"date":"2025-01-18T21:15:26.491Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\",\"reason\":\"\\\"isBusiness\\\" is required\"}"}
+{"date":"2025-01-18T21:20:02.301Z","status":404,"message":"{\"message\":\"User not found.\"}"}
+{"date":"2025-01-18T21:20:18.598Z","status":403,"message":"Only the account owner has permission to change their details."}
+{"date":"2025-01-18T21:20:45.014Z","status":403,"message":"Only the account owner has permission to change their details."}
+{"date":"2025-01-18T21:21:04.830Z","status":403,"message":"Only the account owner has permission to change their details."}
+{"date":"2025-01-18T21:23:08.566Z","status":400,"message":"{\"Status\":400,\"Message\":\"Bad request. Please check your input.\",\"Reason\":\"\\\"web\\\" length must be at least 14 characters long\"}"}
+{"date":"2025-01-18T21:30:12.360Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\"}"}
+{"date":"2025-01-18T21:30:26.183Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\"}"}
+{"date":"2025-01-18T21:36:11.875Z","status":403,"message":"{\"message\":\"Unauthorized access\"}"}
+{"date":"2025-01-18T21:36:32.955Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\"}"}
+{"date":"2025-01-18T21:37:31.809Z","status":403,"message":"{\"message\":\"Unauthorized access\"}"}
+{"date":"2025-01-18T21:37:44.028Z","status":403,"message":"{\"message\":\"Unauthorized access\"}"}
+{"date":"2025-01-18T21:43:15.122Z","status":400,"message":"This biz number is already taken."}
+{"date":"2025-01-18T21:43:32.096Z","status":400,"message":"This biz number is already taken."}
+{"date":"2025-01-18T21:43:44.856Z","status":400,"message":"This biz number is already taken."}
+{"date":"2025-01-18T21:43:57.206Z","status":400,"message":"This biz number is already taken."}
+{"date":"2025-01-18T21:46:36.515Z","status":404,"message":"No card yet."}
+{"date":"2025-01-18T21:46:52.880Z","status":404,"message":"No card yet."}
+{"date":"2025-01-18T21:47:11.177Z","status":404,"message":"No card yet."}
+{"date":"2025-01-18T21:54:58.928Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\"}"}
+{"date":"2025-01-18T21:55:01.641Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\"}"}
+{"date":"2025-01-18T21:58:45.445Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\"}"}

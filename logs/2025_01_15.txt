@@ -1,0 +1,70 @@
+{"date":"2025-01-15T08:05:14.028Z","status":403,"message":"This user does not have permission to receive all users."}
+{"date":"2025-01-15T08:06:05.910Z","status":401,"message":"{\"message\":\"Access denied. Token is required.\"}"}
+{"date":"2025-01-15T08:52:18.878Z","status":403,"message":"FALSE"}
+{"date":"2025-01-15T08:52:19.285Z","status":403,"message":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ODRhOTI2ZDUwNDE2M2I4ZjgyODI3YiIsImJpeiI6dHJ1ZSwiYWRtaW4iOmZhbHNlLCJpYXQiOjE3MzY5MzExMzl9.9NN-eVNolJq9sGAn4iilVchIvFyyuH2Do1Aqc3mGXdI","id":"6784a926d504163b8f82827b"}}
+{"date":"2025-01-15T08:52:19.286Z","status":403,"message":"{\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ODRhOTI2ZDUwNDE2M2I4ZjgyODI3YiIsImJpeiI6dHJ1ZSwiYWRtaW4iOmZhbHNlLCJpYXQiOjE3MzY5MzExMzl9.9NN-eVNolJq9sGAn4iilVchIvFyyuH2Do1Aqc3mGXdI\",\"id\":\"6784a926d504163b8f82827b\"}"}
+{"date":"2025-01-15T08:56:02.624Z","status":403,"message":"FALSE"}
+{"date":"2025-01-15T08:57:55.739Z","status":403,"message":"FALSE"}
+{"date":"2025-01-15T09:12:49.290Z","status":401,"message":"{\"message\":\"Access denied. Token is required.\"}"}
+{"date":"2025-01-15T09:17:55.967Z","status":401,"message":"{\"message\":\"Access denied. Token is required.\"}"}
+{"date":"2025-01-15T09:18:31.007Z","status":401,"message":"{\"message\":\"Access denied. Token is required.\"}"}
+{"date":"2025-01-15T09:27:46.167Z","status":403,"message":"This user does not have permission to receive all users."}
+{"date":"2025-01-15T09:28:24.880Z","status":403,"message":"This user does not have permission to receive all users."}
+{"date":"2025-01-15T17:15:10.186Z","status":403,"message":"This user does not have permission to receive all users."}
+{"date":"2025-01-15T17:35:00.711Z","status":401,"message":"{\"message\":\"Access denied. Token is required.\"}"}
+{"date":"2025-01-15T17:39:59.209Z","status":403,"message":"Only the account owner has permission to change their details."}
+{"date":"2025-01-15T17:54:42.874Z","status":404,"message":"{\"message\":\"User not found.\"}"}
+{"date":"2025-01-15T18:10:38.006Z","status":403,"message":"Only the account owner can update their business status."}
+{"date":"2025-01-15T18:17:20.203Z","status":404,"message":"You must be a user biz"}
+{"date":"2025-01-15T18:23:54.044Z","status":403,"message":"Only the account owner can update their business status."}
+{"date":"2025-01-15T18:24:01.153Z","status":403,"message":"Only the account owner can update their business status."}
+{"date":"2025-01-15T18:24:02.548Z","status":403,"message":"Only the account owner can update their business status."}
+{"date":"2025-01-15T18:24:03.188Z","status":403,"message":"Only the account owner can update their business status."}
+{"date":"2025-01-15T18:24:08.936Z","status":403,"message":"Only the account owner can update their business status."}
+{"date":"2025-01-15T18:27:49.157Z","status":403,"message":"This user does not have permission to receive all users."}
+{"date":"2025-01-15T18:28:18.920Z","status":403,"message":"Only the account owner has permission to change their details."}
+{"date":"2025-01-15T18:29:11.975Z","status":403,"message":"This user does not have permission to receive all users."}
+{"date":"2025-01-15T19:05:01.707Z","status":404,"message":"You must be a user biz"}
+{"date":"2025-01-15T19:05:17.265Z","status":404,"message":"You must be a user biz"}
+{"date":"2025-01-15T19:21:26.998Z","status":403,"message":"{\"message\":\"Unauthorized access\"}"}
+{"date":"2025-01-15T19:22:36.590Z","status":404,"message":"You must be a user biz"}
+{"date":"2025-01-15T19:22:46.701Z","status":404,"message":"You must be a user biz"}
+{"date":"2025-01-15T20:12:56.860Z","status":401,"message":"{\"message\":\"Access denied. Token is required.\"}"}
+{"date":"2025-01-15T20:15:05.487Z","status":404,"message":"You must be a user biz"}
+{"date":"2025-01-15T20:16:06.686Z","status":403,"message":"Access denied. account owner only."}
+{"date":"2025-01-15T20:16:36.391Z","status":403,"message":"Access denied. account owner only."}
+{"date":"2025-01-15T20:18:01.229Z","status":404,"message":"You must be a user biz"}
+{"date":"2025-01-15T20:20:41.133Z","status":404,"message":"No card yet."}
+{"date":"2025-01-15T20:24:28.254Z","status":404,"message":"Card not found."}
+{"date":"2025-01-15T20:55:49.679Z","status":403,"message":"Only an administrator can change a business number."}
+{"date":"2025-01-15T20:56:14.080Z","status":404,"message":"Card not found."}
+{"date":"2025-01-15T20:56:23.572Z","status":404,"message":"Card not found."}
+{"date":"2025-01-15T20:56:25.105Z","status":404,"message":"Card not found."}
+{"date":"2025-01-15T20:58:06.676Z","status":404,"message":"Card not found."}
+{"date":"2025-01-15T21:03:21.474Z","status":404,"message":"Card Not Found."}
+{"date":"2025-01-15T21:05:34.692Z","status":403,"message":"Only an administrator can change a business number."}
+{"date":"2025-01-15T21:06:40.557Z","status":404,"message":"Card Not Found."}
+{"date":"2025-01-15T21:33:51.384Z","status":404,"message":"Card not found."}
+{"date":"2025-01-15T21:35:36.051Z","status":403,"message":"Only an administrator can change a business number."}
+{"date":"2025-01-15T21:37:25.032Z","status":403,"message":"Administrator is not authorized to change fields except business number."}
+{"date":"2025-01-15T21:42:28.429Z","status":403,"message":"U nit "}
+{"date":"2025-01-15T21:42:35.625Z","status":403,"message":"U nit "}
+{"date":"2025-01-15T21:42:36.691Z","status":403,"message":"U nit "}
+{"date":"2025-01-15T21:42:37.115Z","status":403,"message":"U nit "}
+{"date":"2025-01-15T21:42:37.298Z","status":403,"message":"U nit "}
+{"date":"2025-01-15T21:42:37.444Z","status":403,"message":"U nit "}
+{"date":"2025-01-15T21:42:37.634Z","status":403,"message":"U nit "}
+{"date":"2025-01-15T21:42:50.148Z","status":403,"message":"U nit "}
+{"date":"2025-01-15T21:42:50.939Z","status":403,"message":"U nit "}
+{"date":"2025-01-15T21:42:51.328Z","status":403,"message":"U nit "}
+{"date":"2025-01-15T21:42:51.512Z","status":403,"message":"U nit "}
+{"date":"2025-01-15T21:42:51.647Z","status":403,"message":"U nit "}
+{"date":"2025-01-15T21:44:58.760Z","status":403,"message":"U nit "}
+{"date":"2025-01-15T21:49:16.296Z","status":403,"message":"You are not authorized to modify this card."}
+{"date":"2025-01-15T21:49:30.372Z","status":403,"message":"You are not authorized to modify this card."}
+{"date":"2025-01-15T21:49:32.149Z","status":403,"message":"You are not authorized to modify this card."}
+{"date":"2025-01-15T21:49:36.956Z","status":403,"message":"Administrator is not authorized to change fields except business number."}
+{"date":"2025-01-15T21:50:33.693Z","status":403,"message":"You are not authorized to modify this card."}
+{"date":"2025-01-15T21:52:56.148Z","status":403,"message":"You are not authorized to modify this card."}
+{"date":"2025-01-15T21:56:22.899Z","status":403,"message":"You are not authorized to modify this card."}
+{"date":"2025-01-15T21:56:23.981Z","status":403,"message":"You are not authorized to modify this card."}
