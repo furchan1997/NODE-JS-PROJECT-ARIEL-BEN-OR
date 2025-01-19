@@ -43,32 +43,32 @@
 3. JWT_KEY
 4. ADMIN_PASSWORD
 
-User: מייצג משתמש במערכת עם פרטי זיהוי כמו שם, טלפון, אימייל, סיסמה וכתובת. [צפה בקובץ users.js](models/users.js)
-Card: מייצג כרטיס עסקי עם פרטי זיהוי כמו שם עסק, טלפון, אימייל, כתובת ומספר עסק. [צפה בקובץ cards.js](models/cards.js)
+User: מייצג משתמש במערכת עם פרטי זיהוי כמו שם, טלפון, אימייל, סיסמה וכתובת. [file users.js](models/users.js)
+Card: מייצג כרטיס עסקי עם פרטי זיהוי כמו שם עסק, טלפון, אימייל, כתובת ומספר עסק. [file cards.js](models/cards.js)
 
 פונקציות עיקריות
 
 יצירת משתמש חדש: ניתן להוסיף משתמשים חדשים למערכת עם ולידציה מתאימה.
 התחברות: מאפשרת למשתמשים להתחבר בעזרת אימייל וסיסמה.
-[צפה בקובץ users.js](routers/users.js)
+[file users.js](routers/users.js)
 
 יצירת כרטיס חדש: משתמשים יכולים ליצור כרטיסים עסקיים, תוך כדי ווידוא שהם משתמשים עסקיים.
 לייק לכרטיסים: משתמשים יכולים להוסיף או להסיר לייקים מכרטיסים.
-[צפה בקובץ cards.js](routers/cards.js)
+[file cards.js](routers/cards.js)
 
 מידלווארים:
 
-authMW: אמת משתמשים ומוודא שהם מחוברים. [צפה בקובץ auth.js](middleware/auth.js)
-bizAuthMW: מוודא שמשתמש הוא עסקי לפני ביצוע שינויים בכרטיסים. [צפה בקובץ bizAuth.js](middleware/bizAuth.js)
-checkAuthorization: מוודא שמשתמשים יכולים לגשת רק לפרטי המשתמשים שלהם או למנהלים. [צפה בקובץ checkAuth.js](middleware/checkAuth.js)
-loger: מדפיס ושומר שגיאות 400 ומעלה עם הזמן המדוייק [צפה בקובץ loger.js](middleware/loger.js)
+authMW: אמת משתמשים ומוודא שהם מחוברים. [file auth.js](middleware/auth.js)
+bizAuthMW: מוודא שמשתמש הוא עסקי לפני ביצוע שינויים בכרטיסים. [file bizAuth.js](middleware/bizAuth.js)
+checkAuthorization: מוודא שמשתמשים יכולים לגשת רק לפרטי המשתמשים שלהם או למנהלים. [file checkAuth.js](middleware/checkAuth.js)
+loger: מדפיס ושומר שגיאות 400 ומעלה עם הזמן המדוייק [file loger.js](middleware/loger.js)
 
 אובייקטי שגיאות
 
 בפרויקט ישנם אובייקטי שגיאות המאפשרים טיפול בשגיאות בצורה מסודרת ונוחה. להלן השגיאות השונות הנפוצות:
 שגיאות עבור כרטיסים
 
-[צפה בקובץ cardsErr.js](errors/cardsErr.js)
+[file cardsErr.js](errors/cardsErr.js)
 CARD_NOT_FOUND: כרטיס לא נמצא.
 BAD_REQUEST: בקשה רעה. יש לבדוק את הקלט שלך.
 FORBIDDEN_USER: אתה חייב להיות משתמש עסקי.
@@ -77,7 +77,7 @@ UNAUTHORIZED_FOR_USER: רק בעל הכרטיס יכול לבצע פעולה ז�
 
 שגיאות עבור משתמשים
 
-[צפה בקובץ usersErr.js](errors/usersErr.js)
+[file usersErr.js](errors/usersErr.js)
 
 USER_NOT_FOUND: לא נמצאו משתמשים.
 INVALID_TOKEN: גישה נדחתה. טוקן נדרש.
@@ -86,10 +86,10 @@ FORBIDDEN_USER: גישה נדחתה. רק בעל החשבון יכול לגשת.
 
 פונקציה מותאמת אישית עבור PICK
 בנוסף, השתמשנו בפונקציה המותאמת אישית עבור pick מ-Lodash, המסננת את האובייקטים ומחזירה רק את השדות שצוינו. שימוש לדוגמה
-[צפה בקובץ dataPicker.js](config/dataPicker.js)
+[file dataPicker.js](config/dataPicker.js)
 
 ישנה פונקציה מותאמת אישית עבור יצירת טוקן
-[צפה בקובץ newToken.js](scripts/newToken.js)
+[file newToken.js](scripts/newToken.js)
 
 בונוסים :
 עשיתי שני בונוסים מתוך שלוש.
