@@ -1,0 +1,22 @@
+{"date":"2025-01-20T04:54:31.686Z","status":403,"message":"{\"message\":\"Unauthorized access\"}"}
+{"date":"2025-01-20T04:54:53.824Z","status":403,"message":"This user does not have permission to receive all users."}
+{"date":"2025-01-20T04:55:16.550Z","status":403,"message":"Only the account owner has permission to change their details."}
+{"date":"2025-01-20T04:55:23.750Z","status":403,"message":"Only the account owner has permission to change their details."}
+{"date":"2025-01-20T04:56:12.358Z","status":403,"message":"Access denied. account owner only."}
+{"date":"2025-01-20T04:56:19.187Z","status":403,"message":"Access denied. account owner only."}
+{"date":"2025-01-20T04:56:58.109Z","status":403,"message":"{\"message\":\"Unauthorized access\"}"}
+{"date":"2025-01-20T04:59:26.372Z","status":403,"message":"{\"message\":\"Unauthorized access\"}"}
+{"date":"2025-01-20T04:59:51.224Z","status":403,"message":"This user does not have permission to receive all users."}
+{"date":"2025-01-20T05:02:05.816Z","status":403,"message":"You must be a user biz."}
+{"date":"2025-01-20T05:02:38.642Z","status":404,"message":"No card yet."}
+{"date":"2025-01-20T05:02:56.496Z","status":403,"message":"You must be a user biz."}
+{"date":"2025-01-20T05:03:54.030Z","status":403,"message":"You are not authorized to edit this card."}
+{"date":"2025-01-20T05:05:40.907Z","status":500,"message":"Internal Server Error."}
+{"date":"2025-01-20T05:05:46.221Z","status":500,"message":"Internal Server Error."}
+{"date":"2025-01-20T05:08:36.460Z","status":404,"message":"Card not found."}
+{"date":"2025-01-20T05:08:42.091Z","status":404,"message":"Card not found."}
+{"date":"2025-01-20T05:08:50.697Z","status":400,"message":"{\"message\":\"Bad request. Please check your input.\"}"}
+{"date":"2025-01-20T05:08:55.859Z","status":404,"message":"{\"message\":\"User not found.\"}"}
+{"date":"2025-01-20T05:09:21.241Z","status":404,"message":"Card not found."}
+{"date":"2025-01-20T05:09:35.130Z","status":400,"message":"This biz number is already taken."}
+{"date":"2025-01-20T05:09:50.073Z","status":403,"message":"Only an administrator can perform this action."}
