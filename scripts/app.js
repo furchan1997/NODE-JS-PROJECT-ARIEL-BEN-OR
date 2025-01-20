@@ -103,8 +103,6 @@ async function injectInitialData() {
         }
       }
     }
-
-    console.log("Initial data injected successfully!");
   } catch (err) {
     console.error("Error injecting initial data:", err.message);
   }

@@ -9,7 +9,6 @@ const directoryLog = path.join(projectRoot, "logs");
 async function createLogDirectory() {
   try {
     await fs.promises.mkdir(directoryLog, { recursive: true });
-    console.log("asdasdasd");
   } catch (err) {
     console.error("Error creating log directory:", err.message);
   }
