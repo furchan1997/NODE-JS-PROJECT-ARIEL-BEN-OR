@@ -1,5 +1,5 @@
 @local=http://localhost:4040
-@adminToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGNiMzFhYmJlNjkxOTE5NWNlZGUwZCIsImJpeiI6dHJ1ZSwiYWRtaW4iOnRydWUsImlhdCI6MTczNzI3NjM3OX0.ybNRhZ3XpA1HkqEiNlRdOZElLOniPQTl4hZ1jErXUdk
+@adminToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGNiMzFhYmJlNjkxOTE5NWNlZGUwZCIsImJpeiI6dHJ1ZSwiYWRtaW4iOnRydWUsImlhdCI6MTczOTI5NjEzMH0.mi2D60rsEouo0FPVRzOQmOl0tCyc4PxTTCfoXOpR_Rs
 
 @bizToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ODgzYmJlZDJmYTJhZDJhNzcxNWYyNyIsImJpeiI6dHJ1ZSwiYWRtaW4iOmZhbHNlLCJpYXQiOjE3MzY5ODE0NTN9.M_BF6Yk_7pX4FKphID2y6gOzj4EmXKi_QVlQ5LYF-8g
 
@@ -47,14 +47,14 @@ Content-Type: application/json
 
 
 {
-  "email": "ariek23432@email.com",
-  "password": "Abc!123Abc"
+  "email": "ariel@admin.com",
+  "password": "admimPassword"
 }
 
 ### SIGN IN FOR USER WITH VALID TOKEN
 
-GET  {{local}}/users/678c123772eb2dc937711c4d
-x-auth-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGMxMjM3NzJlYjJkYzkzNzcxMWM0ZCIsImJpeiI6dHJ1ZSwiYWRtaW4iOmZhbHNlLCJpYXQiOjE3MzcyMzI5NjF9.iuyr308lELzPC5Yc8GMUNBYBEmn2QuIkiVjiUYaZHbQ
+GET  {{local}}/users/678cb31abbe6919195cede0d
+x-auth-token:{{adminToken}}
 
 ### GET ALL USERS
 
@@ -64,7 +64,7 @@ x-auth-token: {{adminToken}}
 
 ### CHANGES USER DETALIS
 
-PUT  {{local}}/users/67883b7bf7d24e1e2731c0a1
+PUT  {{local}}/users/678cb31abbe6919195cede0d
 x-auth-token: {{adminToken}}
 Content-Type: application/json
 

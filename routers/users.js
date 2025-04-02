@@ -38,6 +38,7 @@ router.delete("/:id", authMW, checkAuthorization, async (req, res, next) => {
     if (!user) {
       res
         .status(errors.USERS_NOT_FOUND.status)
+        
         .json({ message: errors.USERS_NOT_FOUND.message });
       return;
     }
